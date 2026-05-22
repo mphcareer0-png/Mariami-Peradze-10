@@ -1,0 +1,40 @@
+/* logo section */
+ .header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+    pading: 0 32px;
+
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+  
+ }
+ .navigation{
+    display: flex;
+    
+ }
+.nav-li{
+    display: inline-block;
+    margin-right: 24px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.button{
+    display: inline-block;
+   background-color: #000000;
+   color: #F3F3F3;
+   padding: 12px 24px;
+   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 32px;
+  margin-left: 175.5px;
+}
