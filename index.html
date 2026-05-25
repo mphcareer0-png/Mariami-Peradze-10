@@ -44,7 +44,16 @@
              </div>
              </div>
              <div class="image-content">
-                <img class="couch-image" src="./image/img.png" alt="couch-image">
+                <picture>
+             <source media="(min-width:1024px)" srcset="./image/pic1440.jpg">
+  <source media="(min-width:744px)" srcset="./image/pic1024.jpg">
+  <source media="(min-width:375px)" srcset="./image/pic744.jpg">
+  <img 
+  src="./image/pic375.jpg"
+  alt="Flowers" 
+  />
+</picture>
+                <!-- <img class="couch-image" src="./image/img.png" alt="couch-image"> -->
              </div>
              </div>
     </section>
@@ -52,6 +61,7 @@
 
      <!-- second section -->
      <section class="features-container">
+        <div class="features-box"> 
         <div class="child-container"> 
              <h4 class="second-text"> <span class="dot"></span>Feature one </h4>
             <h5 class="second-paragraph">All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another. </h5>
@@ -59,12 +69,13 @@
 
          <div class="child-container"> 
              <h4 class="second-text"> <span class="dot"></span>Feature two</h4>
-            <h5 class="second-paragraph"> All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.</h5>
+            <p class="second-paragraph"> All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.</p>
         </div>
 
          <div class="child-container"> 
              <h4 class="second-text"> <span class="dot"></span>Feature three </h4>
             <h5 class="second-paragraph">All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another. </h5>
+        </div>
         </div>
 
         
@@ -76,7 +87,16 @@
    <section class="section-bg">
     <div class="wraper"> 
     <div class="left-wraper">
-        <img class="left-image" src="./image/img.jpg" alt="shelf">
+        <picture>
+             <source media="(min-width:1024px)" srcset="./image/desktop.jpg">
+  <source media="(min-width:744px)" srcset="./image/img1024.jpg">
+  <source media="(min-width:375px)" srcset="./image/img744.jpg">
+  <img 
+  src="./image/img-375.jpg"
+  alt="Flowers" 
+  />
+</picture>
+        <!-- <img class="left-image" src="./image/img.jpg" alt="shelf"> -->
     </div>
     <div class="right-wraper"> 
         <h3>Long headline on two lines to turn your visitors into users and achieve more</h3>
@@ -91,6 +111,12 @@
     </div>
     </div>
     
+</section>
+<!-- third section -->
+<section>
+    <div class="bg-image"> 
+
+    </div>
 </section>
 </body>
 </html>
